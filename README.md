@@ -26,6 +26,7 @@ Para utilizar o Syllabum, certifique-se de ter instalado:
 
 - Git;
 - Node.js (para o Frontend);
+- uv;
 - Python 3.10+ (para o Backend).
 
 1. Clonando o repositório: 
