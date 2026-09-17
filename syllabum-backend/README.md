@@ -27,7 +27,7 @@ Se os requisitos acima não foram cumpridos, por favor, confira os links a segui
 
 ---
 
-## Configurar e executando o Backend:
+## Configurar e executar o Backend:
 
 Com os pré-requisitos devidamente cumpridos, para configurar e utilizar o backend do Syllabum, basta inserir os seguintes comandos no terminal:
 
