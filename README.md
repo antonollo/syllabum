@@ -20,6 +20,8 @@ Syllabum/
 └── backend/           # API REST e serviços de regras de negócio/dados.
 ```
 
+---
+
 ## Como executar o projeto localmente:
 
 Para utilizar o Syllabum, certifique-se de ter instalado:
@@ -43,6 +45,8 @@ Para instruções mais detalhadas de configuração do banco de dados e ambiente
 3. Configurando e executando o Frontend:
 
 Para instruções mais detalhadas de configuração do frontend: **Veja o README em syllabum-frontend**.
+
+---
 
 ## Licença:
 
