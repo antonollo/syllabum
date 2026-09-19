@@ -4,6 +4,7 @@ from .db.connect_db import engine
 from sqlmodel import SQLModel
 from dotenv import load_dotenv
 from os import getenv
+from .routers import user_routers
 
 load_dotenv()
 
@@ -18,6 +19,8 @@ app.add_middleware(
     allow_methods=["GET", "POST", "PUT", "DELETE"],
     allow_headers=["Content-Type", "Authorization"],
 )
+
+app.include_router(user_routers.router)
 
 
 @app.on_event("startup")

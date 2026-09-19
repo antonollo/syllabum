@@ -27,7 +27,7 @@ def compare_password(pwd: str, user_pwd: str) -> bool:
 #  Decodificação de Token
 def decode_token(token: str) -> dict | None:
     try:
-        return jwt.decode(token, SECRET_KEY, ALGORITHM=[ALGORITHM])
+        return jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
     except jwt.PyJWTError as e:
         raise e
 

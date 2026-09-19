@@ -1,10 +1,10 @@
 from sqlmodel import SQLModel, Field, Relationship
 from typing import Optional
-from datetime import datetime, timezone
+from datetime import datetime
 
 
 class User(SQLModel, table=True):
-    id: Optional[int] = None
+    id: Optional[int] = Field(default=None, primary_key=True)
     username: str = Field(unique=True)
     email: str = Field(unique=True)
     pwd: str

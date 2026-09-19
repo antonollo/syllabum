@@ -9,7 +9,7 @@ from syllabum_backend.schemas.user_schemas import UserInfo, UserForms, UserUpdat
 router = APIRouter(prefix="/api/v1/user", tags=["User"])
 
 
-@router.get("/")
+@router.get("/", summary="Get all registered users.")
 def list_users(session: Session = Depends(get_session)):
     users_list = user_services.list_users(session)
     if not users_list:
@@ -24,7 +24,7 @@ def list_users(session: Session = Depends(get_session)):
     }
 
 
-@router.get("/{user_id}")
+@router.get("/{user_id}", summary="Get User Information by ID.")
 def get_user_by_id(user_id: int, session: Session = Depends(get_session)):
     user = user_services.get_user_by_id(user_id, session)
     if not user:
@@ -39,7 +39,7 @@ def get_user_by_id(user_id: int, session: Session = Depends(get_session)):
     }
 
 
-@router.post("/register")
+@router.post("/register", summary="User's registration treatment.")
 def create_user(
     data: UserForms,
     background_tasks: BackgroundTasks,
@@ -59,7 +59,7 @@ def create_user(
     }
 
 
-@router.put("/")
+@router.put("/", summary="Update User Information, by secured request.")
 def update_user(
     data: UserUpdate,
     user: User = Depends(get_current_user),
@@ -73,7 +73,7 @@ def update_user(
     }
 
 
-@router.delete("/{user_id}")
+@router.delete("/{user_id}", summary="Delete user by ID.")
 def delete_user(user_id: int, session: Session = Depends(get_session)):
     result = user_services.delete_user(user_id, session)
     if not result:
@@ -88,7 +88,7 @@ def delete_user(user_id: int, session: Session = Depends(get_session)):
     }
 
 
-@router.post("/login")
+@router.post("/login", summary="User's login treatment with JWT Tokens.")
 def login_user(
     data: UserForms, response: Response, session: Session = Depends(get_session)
 ):
@@ -122,7 +122,7 @@ def login_user(
     }
 
 
-@router.get("/verify-email/{token}")
+@router.get("/verify-email/{token}", summary="Verify user's email.")
 def verify_email(token: str, session: Session = Depends(get_session)):
     result = user_services.verify_email(token, session)
     if not result:
@@ -137,7 +137,7 @@ def verify_email(token: str, session: Session = Depends(get_session)):
     }
 
 
-@router.post("/forgot-password/{token}")
+@router.post("/forgot-password/{token}", summary="Reset Password by Forget Password Request.")
 def verify_forgot_pwd(
     token: str, new_pwd: str, session: Session = Depends(get_session)
 ):
@@ -153,7 +153,7 @@ def verify_forgot_pwd(
         "detail": "Changed password successfully.",
     }
 
-@router.post("/resend-email")
+@router.post("/resend-email-verification", summary="Resend email verification by secured request.")
 def resend_email_verification(background_tasks: BackgroundTasks, user: User = Depends(get_current_user), session: Session = Depends(get_session)):
     token = user_services.regenerate_email_verification_token(user, session)
     background_tasks.add_task(email_services.verification_email, user.email, token)
@@ -163,7 +163,7 @@ def resend_email_verification(background_tasks: BackgroundTasks, user: User = De
             "detail": "Resent email successfully.",
         }
 
-@router.post("/resend-forgot-password")
+@router.post("/resend-forgot-password", summary="Resend Reset Password request.")
 def resend_forgot_password_email(background_tasks: BackgroundTasks, email: str, session: Session = Depends(get_session)):
     token = user_services.regenerate_forgot_password_token(email, session)
     if not token: 
