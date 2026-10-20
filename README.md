@@ -32,7 +32,7 @@ O desenvolvimento será conduzido de forma incremental, utilizando práticas ág
 ## Documentação:
 
 ```
-Plaintext
+
 ./
 ├── backend/               #  Diz respeito ao código-fonte da API, conexões, etc.
 |
