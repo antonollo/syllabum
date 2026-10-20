@@ -48,9 +48,9 @@ O desenvolvimento será conduzido de forma incremental, utilizando práticas ág
 
 Para ver cada um dos documentos minunciosamente:
 
-- [Acessar Repositório do Frontend](./backend/README.md)
-- [Acessar Repositório do Backend](./frontend/README.md)
-- [Acessar Documentação do Projeto](./docs/README.md)
+- [Acessar Repositório do Frontend](./backend)
+- [Acessar Repositório do Backend](./frontend)
+- [Acessar Documentação do Projeto](./docs)
 
 ## Tecnologias:
 
