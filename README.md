@@ -52,3 +52,28 @@ Para ver cada um dos documentos minunciosamente:
 - [Acessar Repositório do Backend](./frontend/README.md)
 - [Acessar Documentação do Projeto](./docs/README.md)
 
+## Tecnologias:
+
+<table align="center">
+<tr><th align="center">Categoria</th><th align="center">Tecnologias</th></tr>
+<tr>
+<td align="center"><b>Frontend</b></td>
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/html-light.svg" width="50" style="margin: 0 8px;"/>
+<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/css-light.svg" width="50" style="margin: 0 8px;"/>
+<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/typescript.svg" width="50" style="margin: 0 8px;"/>
+<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/tailwind.svg" width="50" style="margin: 0 8px;"/>
+<img src="https://cdn.simpleicons.org/shadcnui/000000" width="50" style="margin: 0 8px;"/>
+</td>
+</tr>
+<tr>
+<td align="center"><b>Backend</b></td>
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/python.svg" width="50" style="margin: 0 8px;"/>
+<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/fastapi.svg" width="50" style="margin: 0 8px;"/>
+<img src="https://cdn.simpleicons.org/uv/DE5FE9" width="50" style="margin: 0 8px;"/>
+</td>
+</tr>
+</table>
+
+Mais tecnologias e ferramentas serão documentadas conforme as decisões técnicas do projeto forem definidas e consolidadas.
