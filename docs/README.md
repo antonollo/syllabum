@@ -48,6 +48,7 @@ docs/
 ### Documentações de Projeto do Syllabum:
 
 - [Critérios de Conclusão](./project/ConclusionCriteria.md)
+- [Dicionário de EAP](./project/EAPDictionary.md)
 - [Escopo do MVP](./project/MVPScope.md)
 - [Registro de Riscos](./project/RiskRegistration.md)
 - [Roadmap do Syllabum](./project/Roadmap.md)
