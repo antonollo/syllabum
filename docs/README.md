@@ -43,7 +43,7 @@ docs/
 
 - [Público-Alvo do Syllabum](./product/TargetAudience.md)
 - [Fluxo do Tutor do Syllabum](./product/TutorFlow.md)
-- [Visão de Produto](./project/ProductVision.md)
+- [Visão de Produto](./product/ProductVision.md)
 
 ### Documentações de Projeto do Syllabum:
 
