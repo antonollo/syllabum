@@ -14,13 +14,13 @@ docs/
 │   └── DataModels.md           
 |
 ├── product/                    #  Documentação de produto do Syllabum.
+│   ├── ProductVision.md
 │   ├── TargetAudience.md
 │   └── TutorFlow.md
 |
 ├── project/                    #  Documentação de projeto do Syllabum.
 │   ├── ConclusionCriteria.md   
-│   ├── MVPScope.md             
-│   ├── ProjectOverview.md      
+│   ├── MVPScope.md                   
 │   ├── RiskRegistration.md     
 │   ├── Roadmap.md
 │   └── TAP.md
@@ -43,12 +43,12 @@ docs/
 
 - [Público-Alvo do Syllabum](./product/TargetAudience.md)
 - [Fluxo do Tutor do Syllabum](./product/TutorFlow.md)
+- [Visão de Produto](./project/ProductVision.md)
 
 ### Documentações de Projeto do Syllabum:
 
 - [Critérios de Conclusão](./project/ConclusionCriteria.md)
 - [Escopo do MVP](./project/MVPScope.md)
-- [Visão de Projeto](./project/ProjectOverview.md)
 - [Registro de Riscos](./project/RiskRegistration.md)
 - [Roadmap do Syllabum](./project/Roadmap.md)
 - [Termo de Abertura do Projeto (TAP)](./project/TAP.md)
