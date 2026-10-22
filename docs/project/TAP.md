@@ -1,21 +1,21 @@
 # Termo de Abertura do Projeto:
 
-- **Projeto**: Syllabum - Plataforma MVP de Tutoria Educacional Inteligente
+- **Projeto**: Syllabum - Tutor Educacional Inteligente
 - **Versão do documento**: 1.0
 - **Data de Elaboração**: 19/10/2026
 
 ## Identificação do Projeto:
 
-| Campo                    | Descrição                                                    |
-| ------------------------ | ------------------------------------------------------------ |
-| Nome do Projeto          | Syllabum - Plataforma MVP de Tutoria Educacional Inteligente |
-| Natureza do Projeto      | Projeto independente de desenvolvimento de software          |
-| Responsável pelo projeto | Antonio Gabriel Nunes Martins                                |
-| Responsável pelo produto | Antonio Gabriel Nunes Martins                                |
-| Organização solicitante  | Não se aplica - iniciativa independente                      |
-| Patrocinador             | Não há                                                       |
-| Prazo estimado           | 9 semanas                                                    |
-| Orçamento preliminar     | Ainda não estimado                                           |
+| Campo                    | Descrição                                           |
+| ------------------------ | --------------------------------------------------- |
+| Nome do Projeto          | Syllabum - Tutor Educacional Inteligente            |
+| Natureza do Projeto      | Projeto independente de desenvolvimento de software |
+| Responsável pelo projeto | Antonio Gabriel Nunes Martins                       |
+| Responsável pelo produto | Antonio Gabriel Nunes Martins                       |
+| Organização solicitante  | Não se aplica - iniciativa independente             |
+| Patrocinador             | Não há                                              |
+| Prazo estimado           | 9 semanas                                           |
+| Orçamento preliminar     | Ainda não estimado                                  |
 
 ## Contexto e Justificativa:
 
@@ -52,7 +52,7 @@ Desenvolver e disponibilizar, em prazo de até 9 semanas, um MVP para uma plataf
 - Implementar o mecanismo de criação e cadastro de cursos a partir das estruturas geradas pela Inteligência Artificial;
 - Desenvolver um ambiente de diálogo adaptativo entre Assistente Virtual e estudante, focado no atendimento específico de tópicos gerados para os cursos;
 - Implementar camada de orquestração de Inteligências Artificiais para permitir que o Assistente Virtual alterne entre "Modo Tutor" e "Modo Debugger";
-- Permitir ao usuário acompanhar o próprio desempenho geral, além do desempenho específico para cada curso, através de um padrão gamificado;
+- Permitir ao usuário acompanhar o próprio desempenho geral, além do desempenho específico para cada curso;
 - Implementar um mecanismo de Inteligência Artificial Generativa capaz de elaborar o escopo de atividades de acordo com dificuldades detectadas pelo estudante;
 - Impedir a criação de cursos, roteiros de estudo e atividades de fixação duplicados e que não estejam relacionados à área de TI;
 - Validar fluxos essenciais por meio da validação de testes funcionais.
@@ -61,7 +61,7 @@ Desenvolver e disponibilizar, em prazo de até 9 semanas, um MVP para uma plataf
 
 O Syllabum será uma plataforma web voltada para o uso individual de estudantes dos mais variados níveis de conhecimento na área de TI.
 
-A solução deve permitir que usuários apresentem um briefing que representa o que desejam aprender e porquê queremm aprender, nisso, uma Inteligência Artificial impulsiona esse briefing ao nível de gerar cursos completos e roteiros de estudo que viabilizem esse aprendizado da melhor forma. Cada curso é estruturado por vários chats especializados que oferecem o acompanhamento de um tutor virtual que tanto ensina a respeito de determinado tópico selecionado durante a elaboração do curso através do "Modo Tutor", como também explica e soluciona dúvidas e erros de código através do "Modo Debugger".
+A solução deve permitir que usuários apresentem um briefing que representa o que desejam aprender e porquê querem aprender, nisso, uma Inteligência Artificial impulsiona esse briefing ao nível de gerar cursos completos e roteiros de estudo que viabilizem esse aprendizado da melhor forma. Cada curso é estruturado por vários chats especializados que oferecem o acompanhamento de um tutor virtual que tanto ensina a respeito de determinado tópico selecionado durante a elaboração do curso através do "Modo Tutor", como também explica e soluciona dúvidas e erros de código através do "Modo Debugger".
 
 O produto será desenvolvido de forma incremental, permitindo que funcionalidades sejam implementadas, testadas e revisadas em ciclos semanais curtos. A solução deverá ser acessível por navegadores web em computadores.
 
