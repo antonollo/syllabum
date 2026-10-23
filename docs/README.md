@@ -11,24 +11,29 @@ Os padrões de documentação seguem sugestões apresentadas pela PMI (Project M
 docs/
 ├── archicteture/               #  Documentação da arquitetura técnica do Syllabum.
 │   ├── decisions/
-│   └── DataModels.md           
+│   └── DataModels.md
 |
 ├── product/                    #  Documentação de produto do Syllabum.
 │   ├── ProductVision.md
 │   ├── TargetAudience.md
 │   └── TutorFlow.md
 |
+├── assets/                     #  Conteúdos e Diagramas de documentação.
+|   └── diagrams/
+|
 ├── project/                    #  Documentação de projeto do Syllabum.
-│   ├── ConclusionCriteria.md   
-│   ├── MVPScope.md                   
-│   ├── RiskRegistration.md     
+│   ├── ConclusionCriteria.md
+│   ├── EAPDictionary.md
+│   ├── MVPScope.md
+│   ├── RiskRegistration.md
 │   ├── Roadmap.md
-│   └── TAP.md
+│   ├── TAP.md
+│   └── UserStories.md
 |
 ├── tests/                      #  Documentação de casos de teste do Syllabum.
 │   └── ValidationPlan.md
 |
-└── README.md                   #  O que você está lendo agora. Apresentação geral do repositório.     
+└── README.md                   #  O que você está lendo agora. Apresentação geral do repositório.
 
 ```
 
@@ -53,8 +58,8 @@ docs/
 - [Registro de Riscos](./project/RiskRegistration.md)
 - [Roadmap do Syllabum](./project/Roadmap.md)
 - [Termo de Abertura do Projeto (TAP)](./project/TAP.md)
+- [Histórias de Usuário](./project/UserStories.md)
 
 ### Documentações de Teste do Syllabum:
 
 - [Plano de Validação](./tests/ValidationPlan.md)
-
