@@ -1,8 +1,8 @@
 # Dicionário do EAP:
 
-**Versão**: 0.1
+**Versão**: 0.2
 **Produto**: Syllabum - Tutor Educacional Inteligente
-**Data de Publicação**: 22/10/2026
+**Data de Publicação**: 23/10/2026
 
 ## Estrutura Analítica do Projeto:
 
@@ -12,29 +12,31 @@
 
 ### 1. Construção e Gerenciamento de Cursos:
 
-| ID   | Pacote de Trabalho                                  | Descrição                                                                                                                |
-| ---- | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| 1.1. | Estruturação de Briefing e Objetivos de Aprendizado | Interface para coleta de briefing de necessidades do usuário, seus objetivos e atual nível de abstração.                 |
-| 1.2. | Geração de Escopo Simplificado de Curso             | Orquestração de LLM para usar informações de usuário para gerar versões preliminares do curso e apresentar para usuário. |
-| 1.3. | Geração de Tópicos de Curso                         | Orquestração de LLM para gerar módulos e tópicos específicos para diálogos com tutor virtual.                            |
-| 1.4. | Painel Geral de Cursos                              | Interface de usuário para facilitar visualização e interação com cursos do usuário, finalizados ou não.                  |
+| ID   | Pacote de Trabalho                                   | Descrição                                                                                                                                     |
+| ---- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.1. | Estruturação de Briefing e Objetivos de Aprendizado. | Interface para coleta de briefing de necessidades do usuário, seus objetivos e atual nível de abstração.                                      |
+| 1.2. | Geração de Escopo Simplificado de Curso.             | Orquestração de LLM para usar informações de usuário para gerar versões preliminares do curso e apresentar para usuário.                      |
+| 1.3. | Avaliação de Escopo Simplificado de Curso.           | Interface de usuário para análise do Escopo Simplificado e identificar necessidade de alterações antes de prosseguir para a geração do curso. |
+| 1.4. | Geração de Tópicos de Curso.                         | Orquestração de LLM para gerar módulos e tópicos específicos para diálogos com tutor virtual.                                                 |
+| 1.5. | Painel Geral de Cursos.                              | Interface de usuário para facilitar visualização e interação com cursos do usuário, finalizados ou não.                                       |
 
-### 2. Experiência de Aprendizagem:
+### 2. Workspace de Aprendizado / Modo Tutor:
 
 | ID   | Pacote de Trabalho                        | Descrição                                                                                                                                                              |
 | ---- | ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2.1. | Workspace de Aprendizado para cada Tópico | Construção de ambiente de diálogo com IA Generativa                                                                                                                    |
-| 2.2. | Modo Tutor (LLM)                          | Aprendizado do usuário pautado em técnicas pedagógicas inspiradas em técnicas e abstrações socrásticas.                                                                |
-| 2.3. | Geração Dinâmica de Atividades            | Orquestração de LLM para detectar dificuldades e necessidades de revisão para viabilizar e facilitar o aprendizado.                                                    |
-| 2.4. | Fechamento de Workspace após Conclusão    | Após o conteúdo abordado ser dado como concluído, o diálogo com o Tutor daquele tópico é devidamente encerrado, permitido apenas para visualização, mas sem interação. |
+| 2.1. | Interação Contextualizada.                | Construção de diálogo com tutor vinculado ao tópico.                                                                                                                   |
+| 2.2. | Tratamento de Perguntas e Respostas.      | Tutor adequado para responder perguntas do usuário e tratar desvios de contexto.                                                                                       |
+| 2.3. | Geração Dinâmica de Atividades.           | Orquestração de LLM para detectar dificuldades e necessidades de revisão através de atividades de fixação, ou por comentário direto do usuário.                        |
+| 2.4. | Arquivamento de Workspace após Conclusão. | Após o conteúdo abordado ser dado como concluído, o diálogo com o Tutor daquele tópico é devidamente encerrado, permitido apenas para visualização, mas sem interação. |
+| 2.5. | Histórico e Contexto.                     | Orquestração de LLM para facilitar a continuidade das interações.                                                                                                      |
 
 ### 3. Assistência à Resolução de Problemas Técnicos:
 
-| ID   | Pacote de Trabalho                          | Descrição                                                                                                                                             |
-| ---- | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 3.1. | Workspace dedicado à Resolução de Problemas | Interface de Usuário voltada especificamente para o atendimento de problemas técnicos (bugs, tracebacks, etc.).                                       |
-| 3.2. | Modo Debugger (LLM)                         | Orquestração de LLM para identificar e entender erros recorrentes de códigos, ensinando a solução através do Método Socrástico.                       |
-| 3.3. | Fechamento de Workspace após Conclusão      | Após o problema ser dado como solucionado, o Workspace de atendimento à problemas técnicos é encerrado e arquivado apenas para consultas posteriores. |
+| ID   | Pacote de Trabalho                           | Descrição                                                                                                                                             |
+| ---- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 3.1. | Workspace dedicado à Resolução de Problemas. | Interface de Usuário voltada especificamente para o atendimento de problemas técnicos (bugs, tracebacks, etc.).                                       |
+| 3.2. | Tratamento de Perguntas e Respostas.         | Técnico adequado para responder perguntas do usuário e tratar desvios de contexto.                                                                    |
+| 3.3. | Arquivamento de Workspace após Conclusão.    | Após o problema ser dado como solucionado, o Workspace de atendimento à problemas técnicos é encerrado e arquivado apenas para consultas posteriores. |
 
 ### 4. Dashboard Geral de Desempenho:
 
