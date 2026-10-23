@@ -33,6 +33,7 @@ docs/
 ├── tests/                      #  Documentação de casos de teste do Syllabum.
 │   └── ValidationPlan.md
 |
+├── Pendencies                  #  Registro do Histórico de pendências.
 └── README.md                   #  O que você está lendo agora. Apresentação geral do repositório.
 
 ```
