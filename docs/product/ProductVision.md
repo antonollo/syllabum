@@ -1,9 +1,9 @@
 # Visão do Produto:
 
-- **Versão**: 0.2
+- **Versão**: 0.3
 - **Produto**: Syllabum - Tutor Educacional Inteligente
 - **Data de Publicação**: 21/10/2026
-- **Última Atualização**: 23/10/2026
+- **Última Atualização**: 24/10/2026
 
 ## Proposta de Valor:
 

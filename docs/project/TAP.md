@@ -1,9 +1,9 @@
 # Termo de Abertura do Projeto:
 
 - **Projeto**: Syllabum - Tutor Educacional Inteligente
-- **Versão do documento**: 1.1
+- **Versão do documento**: 1.2
 - **Data de Elaboração**: 19/10/2026
-- **Última Atualização**: 23/10/2026
+- **Última Atualização**: 24/10/2026
 
 ## Identificação do Projeto:
 
