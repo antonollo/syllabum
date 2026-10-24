@@ -7,7 +7,7 @@
 
 ## Estrutura Analítica do Projeto:
 
-![Diagrama de EAP](../assets/diagrams/EAP.png)
+![Diagrama de EAP](../assets/diagrams/WBS.png)
 
 ## Dicionário de EAP:
 
@@ -33,13 +33,13 @@
 
 ### 3. Assistência à Resolução de Problemas Técnicos / Modo Debugger:
 
-| ID   | Pacote de Trabalho                           | Descrição                                                                                                                                                                                                                      |
-| ---- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 3.1. | Detecção de Intenção.                        | Orquestração de LLM para detectar intenção de usuário por ajuda em quesitos técnicos (envio de informações de traceback, bugs de código, linhas de código, etc.) para alternar do Modo Tutor para o Modo Debugger diretamente. |
-| 3.2. | Toggle de Alternação entre Workspaces. | Opção de usuário para alternar e iniciar diretamente um Workspace com o Modo Debugger.                                                                                                                                         |
-| 3.3. | Workspace dedicado à Resolução de Problemas. | Interface de Usuário voltada especificamente para o atendimento de problemas técnicos (bugs, tracebacks, etc.).                                                                                                                |
-| 3.4. | Tratamento de Perguntas e Respostas.         | Técnico adequado para responder perguntas do usuário e tratar desvios de contexto.                                                                                                                                             |
-| 3.5. | Arquivamento de Workspace após Conclusão.    | Após o problema ser dado como solucionado, o Workspace de atendimento à problemas técnicos é encerrado e arquivado apenas para consultas posteriores.                                                                          |
+| ID   | Pacote de Trabalho                           | Descrição                                                                                                                                                                                                    |
+| ---- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 3.1. | Detecção de Intenção.                        | Orquestração de LLM para detectar intenção de usuário por ajuda em quesitos técnicos (envio de informações de traceback, bugs de código, linhas de código, etc.) para criar bifurcação para o Modo Debugger. |
+| 3.2. | Toggle de Alternação entre Workspaces.       | Opção de usuário para alternar e iniciar diretamente a bifurcação com o Modo Debugger.                                                                                                                       |
+| 3.3. | Workspace dedicado à Resolução de Problemas. | Interface de Usuário voltada especificamente para o atendimento de problemas técnicos (bugs, tracebacks, etc.).                                                                                              |
+| 3.4. | Tratamento de Perguntas e Respostas.         | Técnico adequado para responder perguntas do usuário e tratar desvios de contexto.                                                                                                                           |
+| 3.5. | Arquivamento de Workspace após Conclusão.    | Após o problema ser dado como solucionado, o Workspace de atendimento à problemas técnicos é encerrado e arquivado apenas para consultas posteriores, retornando novamente ao contexto da conversa com o Modo Tutor, de onde parou.                                                        |
 
 ### 4. Dashboard Geral de Desempenho:
 
