@@ -1,9 +1,9 @@
 # Termo de Abertura do Projeto:
 
 - **Projeto**: Syllabum - Tutor Educacional Inteligente
-- **Versão do documento**: 1.2
+- **Versão do documento**: 1.3
 - **Data de Elaboração**: 19/10/2026
-- **Última Atualização**: 24/10/2026
+- **Última Atualização**: 26/10/2026
 
 ## Identificação do Projeto:
 
@@ -15,7 +15,7 @@
 | Responsável pelo produto | Antonio Gabriel Nunes Martins                       |
 | Organização solicitante  | Não se aplica - iniciativa independente             |
 | Patrocinador             | Não há                                              |
-| Prazo estimado           | 9 semanas                                           |
+| Prazo estimado           | 10 semanas                                           |
 | Orçamento preliminar     | Ainda não estimado                                  |
 
 ## Contexto e Justificativa:
@@ -92,15 +92,15 @@ O produto será desenvolvido de forma incremental, permitindo que funcionalidade
 
 ## Principais Entregas:
 
-| ID  | Entrega                                                   | Descrição                                                                                                                                                                                                                                                                                                                                                                                          |
-| --- | --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| E1  | Documentação e planejamento do MVP                        | Escopo definitivo e requisitos prioritários.                                                                                                                                                                                                                                                                                                                                                       |
-| E2  | Mecanismo de estruturação de cursos por IA Generativa     | Funcionalidade capaz de receber informações relevantes fornecidas pelo estudante e gerar uma proposta estruturada de um curso, alinhada aos objetivos de aprendizagem informados.                                                                                                                                                                                                                  |
-| E3  | Mecanismo de cadastro e persistência de cursos            | Funcionalidade responsável por receber a estrutura gerada, registrá-la no sistema e a disponibilizá-la pela IA Generativa, desde que satisfeitas as condições de que o curso não é duplicado e que o contexto do curso envolve explicitamente alguma área de TI.                                                                                                                                   |
-| E4  | Experiência de Aprendizagem orientada pelo tutor          | Funcionalidades que permitem ao estudante acessar o curso, receber atividades de fixação e revisão, diálogos com tutor para receber orientações e feedbacks, além de acompanhar o próprio desempenho geral e específico no aprendizado.                                                                                                                                                            |
+| ID  | Entrega                                                   | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| --- | --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| E1  | Documentação e planejamento do MVP                        | Escopo definitivo e requisitos prioritários.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| E2  | Mecanismo de estruturação de cursos por IA Generativa     | Funcionalidade capaz de receber informações relevantes fornecidas pelo estudante e gerar uma proposta estruturada de um curso, alinhada aos objetivos de aprendizagem informados.                                                                                                                                                                                                                                                                                                                                                                           |
+| E3  | Mecanismo de cadastro e persistência de cursos            | Funcionalidade responsável por receber a estrutura gerada, registrá-la no sistema e a disponibilizá-la pela IA Generativa, desde que satisfeitas as condições de que o curso não é duplicado e que o contexto do curso envolve explicitamente alguma área de TI.                                                                                                                                                                                                                                                                                            |
+| E4  | Experiência de Aprendizagem orientada pelo tutor          | Funcionalidades que permitem ao estudante acessar o curso, receber atividades de fixação e revisão, diálogos com tutor para receber orientações e feedbacks, além de acompanhar o próprio desempenho geral e específico no aprendizado.                                                                                                                                                                                                                                                                                                                     |
 | E5  | Identificação contextual entre Modo Debugger e Modo Tutor | Funcionalidade que identifica a intenção da interação do estudante e direciona o comportamento da IA Generativa. O envio de código-fonte, mensagens de erro ou registros de falha pode acionar o Modo Debugger, ramificação especializada do Workspace do Tutor voltado à análise e resolução de problemas técnicos com aumento escalonado no grau de ajuda ao estudante (fornecendo a resolução real apenas em último caso), enquanto interações voltadas à compreensão de conceitos e ao desenvolvimento de conhecimentos são conduzidas pelo Modo Tutor. |
-| E6  | MVP Integrado e Validado                                  | Versão funcional do Syllabum que integra os componentes essenciais e permite avaliar e validar o fluxo principal de utilização através de testes funcionais.                                                                                                                                                                                                                                       |
-| E7  | Documentação técnica e disponibilização                   | Instruções necessárias para executar e demonstração do sistema, acompanhada de registros de validação pertinentes.                                                                                                                                                                                                                                                                                 |
+| E6  | MVP Integrado e Validado                                  | Versão funcional do Syllabum que integra os componentes essenciais e permite avaliar e validar o fluxo principal de utilização através de testes funcionais.                                                                                                                                                                                                                                                                                                                                                                                                |
+| E7  | Documentação técnica e disponibilização                   | Instruções necessárias para executar e demonstração do sistema, acompanhada de registros de validação pertinentes.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 ## Critérios de Sucesso:
 
@@ -118,10 +118,10 @@ O projeto será considerado bem-sucedido quando os seguintes critérios forem at
 | --- | --------------------------- | ---------------------------------------------------------------------------- | -------------- |
 | M1  | Iniciação e Levantamento    | Necessidades e escopo preliminar validados.                                  | Semana 1       |
 | M2  | Planejamento e prototipação | Requisitos prioritários, backlog e protótipos definidos.                     | Semana 2       |
-| M3  | Desenvolvimento do Núcleo   | Cadastros de Cursos e Experiência de Aprendizagem implementados e validados. | Semana 3 a 6   |
-| M4  | Testes e Correções          | Verificação de fluxos críticos e falhas prioritárias corrigidas.             | Semana 7       |
-| M5  | Implantação e demonstração  | Sistema disponibilizado.                                                     | Semana 8       |
-| M6  | Aceite e encerramento       | Entregas avaliadas, documentação concluída e lições aprendidas registradas.  | Semana 9       |
+| M3  | Desenvolvimento do Núcleo   | Cadastros de Cursos e Experiência de Aprendizagem implementados e validados. | Semana 3 a 7   |
+| M4  | Testes e Correções          | Verificação de fluxos críticos e falhas prioritárias corrigidas.             | Semana 8       |
+| M5  | Implantação e demonstração  | Sistema disponibilizado.                                                     | Semana 9       |
+| M6  | Aceite e encerramento       | Entregas avaliadas, documentação concluída e lições aprendidas registradas.  | Semana 10      |
 
 **Observações**: Os prazos são preliminares e deverão ser revisados após o levantamento das necessidades e a decomposição das tarefas.
 
