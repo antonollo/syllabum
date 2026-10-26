@@ -1,9 +1,9 @@
 # Escopo do MVP:
 
-- **Versão**: 0.3
+- **Versão**: 0.4
 - **Produto**: Syllabum - Tutor Educacional Inteligente
 - **Data de Elaboração:**: 21/10/2026
-- **Última Atualização**: 24/10/2026
+- **Última Atualização**: 26/10/2026
 
 ## Objetivo do MVP:
 

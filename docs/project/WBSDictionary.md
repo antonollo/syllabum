@@ -1,9 +1,9 @@
 # Dicionário do EAP:
 
-**Versão**: 0.4
+**Versão**: 0.5
 **Produto**: Syllabum - Tutor Educacional Inteligente
 **Data de Publicação**: 22/10/2026
-**Última Atualização**: 24/10/2026
+**Última Atualização**: 26/10/2026
 
 ## Estrutura Analítica do Projeto:
 

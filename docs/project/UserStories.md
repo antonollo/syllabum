@@ -1,9 +1,9 @@
 # Histórias e Épicos de Usuário:
 
-- **Versão**: 0.3
+- **Versão**: 0.4
 - **Produto**: Syllabum - Tutor Educacional Inteligente
 - **Data de Publicação**: 22/10/2026
-- **Última Atualização**: 24/10/2026
+- **Última Atualização**: 26/10/2026
 
 ## User Stories:
 
