@@ -1,8 +1,11 @@
 # Syllabum
 
+![Syllabum Logo](./docs/assets/logo/syllabum-logo.svg)
+
 > Um tutor educional inteligente para orientar o aprendizado e aprofundamento de competências técnicas.
 
 O Syllabum é um projeto de desenvolvimento de software que busca explorar o uso da Inteligência Artificial para proporcionais uma experiência de aprendizagem orientada a objetivos, conhecimentos e dificuldades individuais de cada estudante.
+
 
 ## Sobre o Projeto:
 
