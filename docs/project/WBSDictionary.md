@@ -27,7 +27,7 @@
 | ---- | ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2.1. | Interação Contextualizada.                | Construção de diálogo com tutor vinculado ao tópico.                                                                                                                   |
 | 2.2. | Tratamento de Perguntas e Respostas.      | Tutor adequado para responder perguntas do usuário e tratar desvios de contexto, guiando mensagens acordo com a Intercepção Socrática.                                 |
-| 2.3. | Geração Dinâmica de Atividades.           | Orquestração de LLM para detectar dificuldades, necessidades de revisão ou solicitação do próprio usuário por atividades de revisão e fixação.                         |
+| 2.3. | Geração Dinâmica de Atividades.           | Orquestração de LLM para detectar necessidade de construção de atividades de fixação/revisão, com gabarito disponibilizado apenas após a primeira tentativa concluída.                         |
 | 2.4. | Arquivamento de Workspace após Conclusão. | Após o conteúdo abordado ser dado como concluído, o diálogo com o Tutor daquele tópico é devidamente encerrado, permitido apenas para visualização, mas sem interação. |
 | 2.5. | Histórico e Contexto.                     | Orquestração de LLM para facilitar a continuidade das interações em um tópico.                                                                                         |
 
