@@ -30,8 +30,8 @@
 | P-09 | Média      | Definir métricas dos dashboards: como medir tempo de estudo, streak e média semanal.                                                       | EAP 4.1/4.2, CA-09.1, CA-10.1                                                | M3            | Aberta  |
 | P-10 | Baixa      | Itens mínimos de LGPD: consentimento, política de privacidade, exclusão de conta.                                                          | TAP (restrições), EAP seção 5                                                | M3            | Aberta  |
 | P-11 | Baixa      | Glossário único (curso/trilha, escopo preliminar, tutor, workspace, perfil, avaliação).                                                    | Todos os documentos                                                          | Revisão final | Aberta  |
-| P-12 | Alta       | Definição de estrutura de Payload de comunicação entre o Modo Debugger e o Modo Tutor                                                      | TutorFlow                                                                    |
-| P-13 | Alta       | Definição de orçamento máximo de tokens para o Modo Debugger e Modo Tutor                                                                  | TutorFlow (C-02)                                                             |
+| P-12 | Alta       | Definição de estrutura de Payload de comunicação entre o Modo Debugger e o Modo Tutor                                                      | TutorFlow                                                                    | M3 | Aberta |
+| P-13 | Alta       | Definição de orçamento máximo de tokens para o Modo Debugger e Modo Tutor                                                                  | TutorFlow (C-02)                                                             | M3 | Aberta |
 
 ---
 
