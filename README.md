@@ -25,7 +25,7 @@ As funcionalidades acima representam a direção planejada para o produto. Sua i
 
 ## Status do Projeto:
 
-- **Etapa Atual**: Iniciação e Planejamento do MVP.
+- **Etapa Atual**: Documentação e Planejamento do MVP.
 
 O desenvolvimento será conduzido de forma incremental, utilizando práticas ágeis para organizar as tarefas, acompanhar o progresso e validar as funcionalidades implementadas.
 
