@@ -87,7 +87,6 @@ Para ver cada um dos documentos minunciosamente:
 <td align="center">
 <img src="https://cdn.jsdelivr.net/gh/selfhst/icons/svg/ollama.svg" width="50" style="margin: 0 8px;"/>
 <img src="https://cdn.jsdelivr.net/gh/selfhst/icons/svg/openai-light.svg" width="50" style="margin: 0 8px;"/>
-<img src="https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@latest/icons/pydanticai-color.svg" width="50" style="margin: 0 8px;"/>
 <img src="https://cdn.simpleicons.org/langgraph/7FC8FF" width="50" style="margin: 0 8px;"/>
 </td>
 </tr>
