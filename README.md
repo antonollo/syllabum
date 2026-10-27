@@ -6,7 +6,6 @@
 
 O Syllabum é um projeto de desenvolvimento de software que busca explorar o uso da Inteligência Artificial para proporcionais uma experiência de aprendizagem orientada a objetivos, conhecimentos e dificuldades individuais de cada estudante.
 
-
 ## Sobre o Projeto:
 
 A diversidade de tecnologias, ferramentas e áreas de atuação em TI costumam ser um dificultador na organização dos estudos, especialmente para quem está iniciando a trajetório ou deseja desenvolver novas competências na área da tecnologia.
@@ -45,7 +44,7 @@ O desenvolvimento será conduzido de forma incremental, utilizando práticas ág
 |
 ├── LICENSE                #  Licença (Apache-2.0)
 |
-└── README.md              #  O que você está lendo agora. Documentação geral.     
+└── README.md              #  O que você está lendo agora. Documentação geral.
 
 ```
 
@@ -62,8 +61,8 @@ Para ver cada um dos documentos minunciosamente:
 <tr>
 <td align="center"><b>Frontend</b></td>
 <td align="center">
-<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/html-light.svg" width="50" style="margin: 0 8px;"/>
-<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/css-light.svg" width="50" style="margin: 0 8px;"/>
+<img src="https://cdn.simpleicons.org/react/61DAFB" width="50" style="margin: 0 8px;"/>
+<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/vite.svg" width="50" style="margin: 0 8px;"/>
 <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/typescript.svg" width="50" style="margin: 0 8px;"/>
 <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/tailwind.svg" width="50" style="margin: 0 8px;"/>
 <img src="https://cdn.simpleicons.org/shadcnui/000000" width="50" style="margin: 0 8px;"/>
@@ -77,6 +76,24 @@ Para ver cada um dos documentos minunciosamente:
 <img src="https://cdn.simpleicons.org/uv/DE5FE9" width="50" style="margin: 0 8px;"/>
 </td>
 </tr>
+<tr>
+<td align="center"><b>Banco de Dados</b></td>
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/postgres.svg" width="50" style="margin: 0 8px;"/>
+</td>
+</tr>
+<tr>
+<td align="center"><b>Inteligência Artificial</b></td>
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/selfhst/icons/svg/ollama.svg" width="50" style="margin: 0 8px;"/>
+<img src="https://cdn.jsdelivr.net/gh/selfhst/icons/svg/openai-light.svg" width="50" style="margin: 0 8px;"/>
+<img src="https://cdn.simpleicons.org/langgraph/7FC8FF" width="50" style="margin: 0 8px;"/>
+</td>
+</tr>
+<tr>
+<td align="center"><b>Ferramenta de Testes</b></td>
+<td align="center">
+<img src="https://cdn.simpleicons.org/pytest/FFFFFF" width="50" style="margin: 0 8px;"/>
+</td>
+</tr>
 </table>
-
-Mais tecnologias e ferramentas serão documentadas conforme as decisões técnicas do projeto forem definidas e consolidadas.
