@@ -47,7 +47,7 @@ A justificativa do projeto está na oportunidade de explorar como sistemas basea
 
 ### Objetivo Geral:
 
-Desenvolver e disponibilizar, em prazo de até 9 semanas, um MVP para uma plataforma educacional inteligente para aprendizagem de competências relacionadas à área de TI, podendo potencializar o aprendizado e orientação individual com uso de Inteligência Artificial Generativa. As técnicas pedagógicas do Tutor Educacional Inteligente se inspiram na Intercepção Socrática, onde o desenvolvimento de raciocínio se desenvolve a partir de perguntas retóricas sem implementação de soluções diretas.
+Desenvolver e disponibilizar, em prazo de até 10 semanas, um MVP para uma plataforma educacional inteligente para aprendizagem de competências relacionadas à área de TI, podendo potencializar o aprendizado e orientação individual com uso de Inteligência Artificial Generativa. As técnicas pedagógicas do Tutor Educacional Inteligente se inspiram na Intercepção Socrática, onde o desenvolvimento de raciocínio se desenvolve a partir de perguntas retóricas sem implementação de soluções diretas.
 
 ### Objetivos Específicos:
 
