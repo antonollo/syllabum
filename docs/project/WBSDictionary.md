@@ -7,7 +7,7 @@
 
 ## Estrutura Analítica do Projeto:
 
-![Diagrama de EAP](../assets/diagrams/WBS.png)
+![Diagrama de EAP](./assets/diagrams/WBS.png)
 
 ## Dicionário de EAP:
 

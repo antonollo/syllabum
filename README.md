@@ -1,6 +1,6 @@
 # Syllabum
 
-![Syllabum Logo](./docs/assets/logo/syllabum-logo.svg)
+![Syllabum Logo](./docs/project/assets/logo/syllabum-logo.svg)
 
 > Um tutor educional inteligente para orientar o aprendizado e aprofundamento de competências técnicas.
 
