@@ -30,6 +30,10 @@ docs/
 │   ├── TAP.md
 │   └── UserStories.md
 |
+├── prototypes/                 #  Documentação de Protótipos de Tela do Syllabum.
+│   ├── assets/                 #  Fotos de Protótipos de Tela (Baixa e Alta Fidelidades) da aplicação.
+│   ├── README.md               #  Descrição Geral das Telas do Syllabum
+|
 ├── tests/                      #  Documentação de casos de teste do Syllabum.
 │   └── ValidationPlan.md
 |
@@ -60,6 +64,10 @@ docs/
 - [Roadmap do Syllabum](./project/Roadmap.md)
 - [Termo de Abertura do Projeto (TAP)](./project/TAP.md)
 - [Histórias de Usuário](./project/UserStories.md)
+
+### Documentações de Protótipos do Syllabum:
+
+- [Protótipos de Tela do Syllabum](./prototypes/README.md)
 
 ### Documentações de Teste do Syllabum:
 
