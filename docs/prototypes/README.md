@@ -1,9 +1,9 @@
 # Protótipo de Telas:
 
-- **Versão**: 0.1
+- **Versão**: 0.2
 - **Produto**: Syllabum - Tutor Educacional Inteligente
 - **Data de Publicação**: 27/10/2026
-- **Última Atualização**: 27/10/2026
+- **Última Atualização**: 29/10/2026
 
 ## 1. Home Screen (Menu Inicial):
 
@@ -21,15 +21,19 @@
 
 ## 2. Painel de Cursos:
 
+- **Observações**: Como esta tela também se trata de uma tela de apoio (navegação), não há história de usuário propriamente que a descreva.
+
 ### Protótipo de Baixa Fidelidade:
+
+![Protótipo de Baixa Fidelidade do Painel de Cursos](./assets/low-fidelity/CoursePanel.png)
 
 ### Protótipo de Alta Fidelidade:
 
-- **Objetivo da Tela**:
+![Protótipo de Alta Fidelidade do Painel de Cursos](./assets/high-fidelity/CoursePanel.png)
 
-- **Estados que a Tela precisa tratar**:
+- **Objetivo da Tela**: Organizar, em formato de Grid, cursos existentes do estudante. Permite pesquisar e encontrar cursos específicos com mais praticidade e organizar a estrutura do curso de acordo com preferências do próprio usuário (Ordem Alfabética crescente ou decrescente, quantidade de tópicos a estudar, etc.).
 
-- **Histórias de Usuário, Regras de Negócio e Critérios de Aceitação atendidos**:
+- **Estados que a Tela precisa tratar**: Ausência de Cursos e Carregamento de Informações.
 
 ---
 
