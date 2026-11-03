@@ -1,9 +1,9 @@
 # Termo de Abertura do Projeto:
 
 - **Projeto**: Syllabum - Tutor Educacional Inteligente
-- **Versão do documento**: 1.3
+- **Versão do documento**: 1.4
 - **Data de Elaboração**: 19/10/2026
-- **Última Atualização**: 26/10/2026
+- **Última Atualização**: 03/11/2026
 
 ## Identificação do Projeto:
 
@@ -15,7 +15,7 @@
 | Responsável pelo produto | Antonio Gabriel Nunes Martins                       |
 | Organização solicitante  | Não se aplica - iniciativa independente             |
 | Patrocinador             | Não há                                              |
-| Prazo estimado           | 10 semanas                                          |
+| Prazo estimado           | 12 semanas                                          |
 | Orçamento preliminar     | Ainda não estimado                                  |
 
 ## Contexto e Justificativa:
