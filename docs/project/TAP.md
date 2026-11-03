@@ -1,9 +1,9 @@
 # Termo de Abertura do Projeto:
 
 - **Projeto**: Syllabum - Tutor Educacional Inteligente
-- **Versão do documento**: 1.3
+- **Versão do documento**: 1.4
 - **Data de Elaboração**: 19/10/2026
-- **Última Atualização**: 26/10/2026
+- **Última Atualização**: 03/11/2026
 
 ## Identificação do Projeto:
 
@@ -15,7 +15,7 @@
 | Responsável pelo produto | Antonio Gabriel Nunes Martins                       |
 | Organização solicitante  | Não se aplica - iniciativa independente             |
 | Patrocinador             | Não há                                              |
-| Prazo estimado           | 10 semanas                                           |
+| Prazo estimado           | 12 semanas                                          |
 | Orçamento preliminar     | Ainda não estimado                                  |
 
 ## Contexto e Justificativa:
@@ -117,11 +117,11 @@ O projeto será considerado bem-sucedido quando os seguintes critérios forem at
 | ID  | Marco                       | Resultado Esperado                                                           | Prazo Estimado |
 | --- | --------------------------- | ---------------------------------------------------------------------------- | -------------- |
 | M1  | Iniciação e Levantamento    | Necessidades e escopo preliminar validados.                                  | Semana 1       |
-| M2  | Planejamento e prototipação | Requisitos prioritários, backlog e protótipos definidos.                     | Semana 2       |
-| M3  | Desenvolvimento do Núcleo   | Cadastros de Cursos e Experiência de Aprendizagem implementados e validados. | Semana 3 a 7   |
-| M4  | Testes e Correções          | Verificação de fluxos críticos e falhas prioritárias corrigidas.             | Semana 8       |
-| M5  | Implantação e demonstração  | Sistema disponibilizado.                                                     | Semana 9       |
-| M6  | Aceite e encerramento       | Entregas avaliadas, documentação concluída e lições aprendidas registradas.  | Semana 10      |
+| M2  | Planejamento e prototipação | Requisitos prioritários, backlog e protótipos definidos.                     | Semana 2 a 4   |
+| M3  | Desenvolvimento do Núcleo   | Cadastros de Cursos e Experiência de Aprendizagem implementados e validados. | Semana 5 a 9   |
+| M4  | Testes e Correções          | Verificação de fluxos críticos e falhas prioritárias corrigidas.             | Semana 10      |
+| M5  | Implantação e demonstração  | Sistema disponibilizado.                                                     | Semana 11      |
+| M6  | Aceite e encerramento       | Entregas avaliadas, documentação concluída e lições aprendidas registradas.  | Semana 12      |
 
 **Observações**: Os prazos são preliminares e deverão ser revisados após o levantamento das necessidades e a decomposição das tarefas.
 
@@ -150,6 +150,7 @@ O projeto será considerado bem-sucedido quando os seguintes critérios forem at
 | Problemas de segurança / Exposição de dados sensíveis                    | Risco à confidencialidade de usuários                                         | Limitação de acesso, desenvolvimento de medidas adequadas de segurança              |
 | Qualidade e Alucinação dos modelos de Inteligência Artificial Generativa | Comprometimento de respostas e estrutura de tópicos.                          | Ajustes e testes contínuos com técnicas de Engenharia de Prompt.                    |
 | Disponibilidade do Provedor                                              | Atraso e impossilidade de gerar respostas e realizar decisões em tempo hábil. | Busca de um provedor, preferencialmente referência no mercado, com bons resultados. |
+| Disponibilidade do Desenvolvedor                                         | Atraso de Marcos e impossilidade de conclusão de projeto.                     | Estruturar um cronograma flexível.                                                  |
 
 **Observações**: Os riscos serão revisados periodicamente durante a execução do projeto, com atualização das respostas conforme necessário.
 
